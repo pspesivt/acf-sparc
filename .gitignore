@@ -74,3 +74,6 @@ logs/
 
 # Framework specific
 docs/quality/tmp/
+
+.roo
+.venv

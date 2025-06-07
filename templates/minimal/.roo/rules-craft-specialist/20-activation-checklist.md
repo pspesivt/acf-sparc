@@ -1,0 +1,1 @@
+Mode Activation Checklist:/rules-{mode}/rules.md exists;.roomodes entry added;Delegation matrix updated;Sample handoff created;Test task routes correctly;missing_any=>mode exists but unusable

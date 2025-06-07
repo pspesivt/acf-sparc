@@ -1,0 +1,3 @@
+# This directory contains atomic task files
+# Each file represents one implementation task
+# File naming convention: TASK-ID.yaml (e.g., FEAT-AUTH-001.yaml, BUG-LOGIN-003.yaml)

@@ -1,7 +1,7 @@
 {
   "name": "acf-sparc",
-  "version": "0.1.0",
-  "description": "SPARC-style RooCode project initializer",
+  "version": "0.1.1",
+  "description": "ACF-SPARC-style RooCode project initializer",
   "bin": {
     "acf-sparc": "./bin/cli.js"
   },

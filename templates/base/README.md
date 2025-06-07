@@ -1,4 +1,4 @@
-# ACF-SPARC Boilerplate
+# ACF-SPARC Project
 
 This project is initialized with ACF-SPARC framework. Your code is no longer a mess.
 
@@ -6,17 +6,22 @@ This project is initialized with ACF-SPARC framework. Your code is no longer a m
 
 **S**pecification → **P**seudocode → **A**rchitecture → **R**efinement → **C**ompletion
 
-A framework that enforces discipline through specialized AI agents:
+A framework that enforces discipline through specialized AI agents.
 
-| Phase | Purpose | Agent |
-|-------|---------|-------|
-| **Specification** | Extract requirements, define acceptance criteria | 📋 Sherlock |
-| **Pseudocode** | Create algorithm blueprints, define data structures | 🏗️ Darwin |
-| **Architecture** | Design system structure, select technologies | 🏗️ Darwin |
-| **Refinement** | Implement, test, optimize | 🐍 Monty + Others |
-| **Completion** | Deploy, monitor, operationalize | 🚀 Maverick |
+> **Note**: The SPARC methodology was derived and implemented based on the public work of [ruvnet](https://github.com/ruvnet). This framework represents a practical implementation of those concepts.
 
-Zeus (⚡) orchestrates the entire process, ensuring each phase delivers quality outputs.
+### Core Agents:
+
+| Phase | Purpose | Primary Agent | Supporting Agents |
+|-------|---------|--------------|------------------|
+| **Specification** | Extract requirements, define acceptance criteria | 📋 Sherlock | 📚 Scribe (docs) |
+| **Pseudocode** | Create algorithm blueprints, define data structures | 🏗️ Darwin | 📚 Scribe (docs) |
+| **Architecture** | Design system structure, select technologies | 🏗️ Darwin | 🗺️ Pathfinder (planning) |
+| **Planning** | Break down into atomic tasks | 🗺️ Pathfinder | ⚡ Zeus (routing) |
+| **Refinement** | Implement, test, optimize | 🐍 Monty, ⚛️ Dexter, 🔨 Hephaestus | 🔧 Brutus (quality) |
+| **Completion** | Deploy, monitor, operationalize | 🚀 Maverick, 🚢 Janus | 📚 Scribe (docs) |
+
+⚡ Zeus orchestrates the entire process, ensuring each phase delivers quality outputs. When expertise gaps are identified, 🔥 Prometheus creates new specialized agents to fill them.
 
 ## Getting Started
 
@@ -61,17 +66,38 @@ src/                    # Implementation code
 tests/                  # Test suites
 ```
 
+## Available Agents
+
+- **⚡ Zeus** - Orchestrator that breaks down objectives and routes to specialists
+- **📋 Sherlock** - Specification analyst for requirements extraction
+- **🏗️ Darwin** - Solution designer for architecture and pseudocode
+- **🗺️ Pathfinder** - Planning specialist that creates atomic task backlogs
+- **🐍 Monty** - Python engineer (FastAPI, SQLAlchemy, type-safe async)
+- **⚛️ Dexter** - Next.js engineer (TypeScript, App Router, Server Components)
+- **🔨 Hephaestus** - Database engineer (migrations, optimization, complex queries)
+- **🔧 Brutus** - Quality engineer (finds bugs, doesn't fix them)
+- **🚀 Maverick** - Deployment engineer (Docker, K8s, CI/CD)
+- **🚢 Janus** - Release engineer (versioning, changelogs, releases)
+- **📚 Scribe** - Documentation engineer (comprehensive project docs)
+- **🔥 Prometheus** - Mode generator (creates new specialists when needed)
+
 ## Common Commands
 
 ```bash
-# Run tests
-npm test
+# Python projects (if using Python)
+python -m pytest  # Run tests
+uv sync          # Install dependencies
+ruff check .     # Lint code
+mypy .          # Type check
 
-# Build project
-npm run build
+# Next.js projects (if using Next.js)  
+npm test        # Run tests
+npm run build   # Build project
+npm run dev     # Start development server
 
-# Start development server
-npm start
+# General
+git status      # Check changes
+git commit -m "feat: your message"  # Commit with conventional format
 ```
 
 See [AGENTS.md](./AGENTS.md) for detailed instructions for AI coding agents.
