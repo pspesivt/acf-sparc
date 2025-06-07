@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "openmemory": {
+      "timeout": 60,
+      "transportType": "sse",
+      "url": "http://localhost:8765/mcp/acf/sse/sparc",
+      "alwaysAllow": [
+        "add_memories",
+        "search_memory"
+      ]
+    }
+  }
+}

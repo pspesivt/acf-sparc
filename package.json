@@ -1,0 +1,25 @@
+{
+  "name": "acf-sparc",
+  "version": "0.1.0",
+  "description": "SPARC-style RooCode project initializer",
+  "bin": {
+    "acf-sparc": "./bin/cli.js"
+  },
+  "type": "module",
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
+    "prettier": "^3.5.3"
+  }
+}
